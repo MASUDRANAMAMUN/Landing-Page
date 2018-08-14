@@ -1,0 +1,600 @@
+body{
+    margin: 0 auto; outline: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+h1{
+    color: #fff; font-size: 35px;
+}
+h2{font-size: 30px; color: #fff}
+
+h3{
+    color: #fff; font-size: 25px;
+}
+
+h4{
+    color: #fff; font-size: 22px;
+}
+
+p{color: #000; font-size: 18px}
+
+img{width: 100%; max-width: 100%;}
+
+
+
+
+
+
+/* Main Header Styles */
+
+.main_header_area {
+    background: #fff;
+}
+.logo_area{
+    float: left;
+}
+.logo_area h1 {
+    color: #e82323;
+    font-size: 50px;
+    font-weight: bold;
+}
+.logo a {
+    display: inline-block;
+    text-decoration: none;
+}
+.half_text_color{
+    color: #025FA5;
+}
+.apply_now {
+    float: right;
+    padding-top: 7px;
+}
+.apply_now h2 {
+    color: #025fa5;
+    font-size: 35px;
+}
+.apply_now h3 {
+    margin: 0;
+    padding-top: 10px;
+}
+.apply {
+    text-decoration: none;
+    display: inline;
+    color: #e82323;
+    font-weight: bold;
+}
+.apply:hover{
+    text-decoration: none;
+    color: #e82323;
+}
+
+
+
+
+
+/* Main Hero Area Styles */
+
+
+.main_hero_area {
+    background: #D5EBF8;
+    padding: 40px;
+}
+.bg_overly {
+    
+}
+.hero_hading {
+    padding-top: 30px;
+}
+.hero_hading h1 {
+    font-size: 70px;
+    color: #E82323;
+    font-weight: bold;
+    margin: 0;
+}
+.hero_hading h2 {
+    font-size: 30px;
+    color: #025FA5;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0;
+}
+.hero_hading ul {
+    padding: 20px 0px;
+}
+.hero_hading ul li {
+    color: #09305b;
+    font-size: 23px;
+    line-height: 35px;
+    list-style: none;
+}
+.hero_hading ul li i{
+    padding-right: 10px;
+}
+.hero_buttons{}
+
+
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password], input[type=number]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #e82323;
+    color: white;
+    padding: 10px 25px;
+    border: 1px solid #e82323;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .5s;
+}
+
+
+
+button:hover {
+    opacity:1;
+    background: none;
+    color: #e82323;
+    text-decoration: none;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 10px 20px;
+    background-color: #262626;
+    border: 1px solid #262626;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.main_form {
+    padding: 15px;
+    width: 100%;
+}
+.main_form h1 {
+    color: #25ac07;
+    font-size: 45px;
+}
+.main_form p{
+    color: #25ac07;
+    font-size: 30px;
+}
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix{
+    text-align: center;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+
+/* Subscribe Form Style */
+
+.custom_padding{
+
+}
+.loan_girl{}
+.loan_girl img {
+    width: 500px;
+}
+
+
+
+
+/* About Us Area Styles */
+
+
+.about_us_area{
+    padding: 35px;
+}
+.about_us_content {
+    text-align: center;
+}
+.about_us_content h1 {
+    color: #025fa5;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.about_us_content p {
+    padding-bottom: 15px;
+}
+.about_us_button{
+    text-align: center;
+}
+.about_us_button a {
+    background: #25ac07;
+    color: #fff;
+    border: 1px solid #25ac07;
+    border-radius: 2px;
+    padding: 10px 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+    overflow: hidden;
+    display: inline-block;
+    font-weight: bold;
+}
+.about_us_button a:hover{
+    text-decoration: none;
+}
+
+
+
+/* Subscribe Form Style */
+
+.custom_padding {
+    padding-top: 8px;
+}
+.subscribe_form {
+    background: #e82323;
+    padding: 20px;
+    text-align: center;
+}
+.subscribe_form input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #F1F1F1;
+}
+.subscribe_form input:focus{
+    outline: 0;
+    background: #DDDDDD;
+}
+.subscribe {
+    margin-top: 20px;
+    background: #025fa5;
+    width: 100%;
+    border: 1px solid #025fa5;
+    border-radius: 5px;
+    font-size: 23px;
+}
+.subscribe:hover{
+    background: #025fa5;
+    color: #fff;
+}
+.subscribe:focus{
+    outline: 0;
+}
+
+
+
+
+
+
+
+
+
+/* How It Work Area Styles */
+
+.how_it_works_area {
+    padding: 30px;
+    background: #d5ebf8;
+}
+.how_it_work_hading{
+    text-align: center;
+}
+.how_it_work_hading h1 {
+    color: #025fa5;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0;
+    padding-bottom: 25px;
+}
+.how_it_work{}
+.single_how_it_work{}
+.single_icon {
+    text-align: center;
+}
+.single_icon i {
+    font-size: 100px;
+    color: #e82323;
+}
+.single_content {
+    text-align: center;
+    padding-top: 15px;
+}
+.single_content h4 {
+    color: #025FA5;
+    margin: 0;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.single_content h2 {
+    color: #025FA5;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Simple Way To Get Loan Area Styles */
+
+
+.simple_way_loan_area {
+    background: #025fa5;
+}
+.simple_way_loan {
+    padding-top: 50px;
+}
+.simple_way_loan h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.simple_way_loan p{
+    color: #fff;
+}
+.simple_way_loan_img{}
+.simple_way_loan_img img {
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+/* Testimonial Area Styles */
+
+
+.testimonial_area {
+    background: #d5ebf8;
+    padding: 30px;
+}
+.testimonial_hading{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.testimonial_hading h1 {
+    color: #025fa5;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0;
+}
+.testimonial_content{}
+.tetimnial_single_content{}
+.tetimnial_single_content p {
+    color: #09305b;
+}
+.tetimnial_single_content i {
+    font-size: 40px;
+    width: 100%;
+    color: #e82323;
+}
+.tetimnial_single_content h3{
+    color: #e82323;
+    margin: 0;
+}
+.{}
+
+
+
+
+/* Met our Client Area Styles */
+
+
+.met_our_team_area {
+    padding-bottom: 20px;
+}
+.met_our_team_hading{
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.met_our_team_hading h1 {
+    color: #146bac;
+    font-weight: bold;
+    font-size: 45px;
+}
+.client_logo_area{
+    display: block;
+    overflow: hidden;
+}
+.client_logo{}
+.client_logo img{
+    opacity: .5;
+    transition: .5s;
+}
+.client_logo img:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+/* Footer Subscribe Area Styles */
+.footer_subscribe_area {
+    padding: 50px;
+    background: #d5ebf8;
+}
+.footer_subscribe_hading{}
+.footer_subscribe_hading h1 {
+    color: #146bac;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+}
+.footer_subscribe_form{}
+.footer_subscribe_input {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #146bac;
+    padding: 15px;
+    float: left;
+    width: 65%;
+}
+.footer_subscribe_input:focus{
+    outline: 0;
+}
+.footer_submit {
+    padding: 9px 25px;
+    font-size: 22px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid #146bac;
+    background: #146bac;
+    color: #fff;
+    margin-left: 10px;
+    float: right;
+    width: 30%;
+}
+.footer_submit:focus{
+    outline: 0;
+}
+
+
+
+
+
+
+
+/* Footer Area Styles */
+.main_footer_area {
+    background: #146bac;
+    padding: 30px 0px 10px 0px;
+}
+.footer_left {
+    color: #fff;
+    float: left;
+}
+.footer_left p {
+    color: #fff;
+    padding-bottom: 10px;
+}
+.footer_left a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.footer_right {
+    float: right;
+}
+.footer_right{}
+.footer_right h2{
+    margin: 0;
+}
+.footer_right a {
+    display: inline-block;
+    color: #fff;
+    padding: 0px 5px;
+    transition: .5s;
+}
+.footer_right a:hover{
+    opacity: .7;
+}
+.footer_right i {
+    font-size: 40px;
+}
+.{}
+.{}
+.{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
